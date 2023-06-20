@@ -1,2 +1,15 @@
+
+//Variables
+$primary: #5265E1;
+$secondary:#FA5959;
+
+
+
+//import the functions and variables
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+
+
+
 //import bootstrap
 @import '../node_modules/bootstrap/scss/bootstrap';
