@@ -45,7 +45,7 @@
         </nav>
     </div>
 
-    <div class="container mb-5">
+    <div class="container">
         <div class="row justify-content-center align-items-center mt-5">
             <div class="col-12 col-md-6 order-2 order-md-1 text-center text-md-start p-3 ">
                 <h1>A Simple Bookmark Manager</h1>
@@ -60,63 +60,133 @@
         </div>
     </div>
 
-
-    <div class="container text-center">
+    <div class="container text-center mt-5">
         <div class="row">
             <h2 class="col-12">Features</h2>
             <div class="row">
-                <p class="col-12 col-md-6 offset-md-3 pe-4 ps-4">Our aim is to make it quick and easy for you to access your
-                    favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+                <p class="col-12 col-md-6 offset-md-3 pe-4 ps-4">Our aim is to make it quick and easy for you to access
+                    your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
             </div>
         </div>
     </div>
 
-<div class="container">
     <div class="container mb-5">
-        <div class="row justify-content-center align-items-center mt-5">
-            <div class="col-12 col-md-6">
-                <img class="img-responsive" width="100%" src="Imagenes/illustration-features-tab-1.svg" alt="computer screen">
-            </div>
-            <div class="col-12 col-md-5 offset-md-1 text-center text-md-start p-3 ">
-                <h2> Bookmark in one click</h2>
-                <p class="pe-4 ps-4 pe-md-0 ps-md-0"> Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
-                <button type="button" class="btn btn-primary shadow me-2">More Info</button>
-            </div>
-        </div>
-    </div>
-</div>
+        <!-- Nav tabs -->
+        <div class="container">
 
-<div class="container">
-    <div class="container mb-5">
-        <div class="row justify-content-center align-items-center mt-5">
-            <div class="col-12 col-md-6">
-                <img class="img-responsive" width="100%" src="Imagenes\illustration-features-tab-2.svg" alt="computer screen">
-            </div>
-            <div class="col-12 col-md-5 offset-md-1 text-center text-md-start p-3 ">
-                <h2> Search in one click</h2>
-                <p class="pe-4 ps-4 pe-md-0 ps-md-0"> Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
-                <button type="button" class="btn btn-primary shadow me-2">More Info</button>
-            </div>
-        </div>
+        <ul class="nav nav-tabs col-4 offset-4 justify-content-center" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
+                    role="tab" aria-controls="home" aria-selected="true">Simple Bookmarking</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
+                    role="tab" aria-controls="profile" aria-selected="false">Speedy Searching</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages" type="button"
+                    role="tab" aria-controls="messages" aria-selected="false">Easy Sharing</button>
+            </li>
+        </ul>
     </div>
-</div>
 
-<div class="container">
-    <div class="container mb-5">
-        <div class="row justify-content-center align-items-center mt-5">
-            <div class="col-12 col-md-6">
-                <img class="img-responsive" width="100%" src="Imagenes\illustration-features-tab-3.svg" alt="computer screen">
+    <!--
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
+                    role="tab" aria-controls="home" aria-selected="true">Simple Bookmarking</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
+                    role="tab" aria-controls="profile" aria-selected="false">Speedy Searching</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages" type="button"
+                    role="tab" aria-controls="messages" aria-selected="false">Easy Sharing</button>
+            </li>
+        </ul>
+    -->
+
+
+
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <div class="container">
+                    <div class="row justify-content-center align-items-center mt-5">
+                        <div class="col-12 col-md-6">
+                            <img class="img-responsive mb-3" width="100%" src="Imagenes/illustration-features-tab-1.svg"
+                                alt="computer screen">
+                        </div>
+                        <div class="col-12 col-md-5 offset-md-1 text-center text-md-start p-4 mb-5 ">
+                            <h2> Bookmark in one click</h2>
+                            <p class="pe-4 ps-4 pe-md-0 ps-md-0"> Organize your bookmarks however you like. Our
+                                simple drag-and-drop interface gives you complete control over how you manage your
+                                favourite sites.</p>
+                            <button type="button" class="btn btn-primary shadow me-2">More Info</button>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-            <div class="col-12 col-md-5 offset-md-1 text-center text-md-start p-3 ">
-                <h2> Share in one click</h2>
-                <p class="pe-4 ps-4 pe-md-0 ps-md-0"> Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
-                <button type="button" class="btn btn-primary shadow me-2">More Info</button>
+
+
+            <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <div class="container">
+
+                    <div class="row justify-content-center align-items-center mt-5">
+                        <div class="col-12 col-md-6">
+                            <img class="img-responsive mb-3" width="100%" src="Imagenes\illustration-features-tab-2.svg"
+                                alt="computer screen">
+                        </div>
+                        <div class="col-12 col-md-5 offset-md-1 text-center text-md-start p-4 mb-5 ">
+                            <h2> Search in one click</h2>
+                            <p class="pe-4 ps-4 pe-md-0 ps-md-0"> Organize your bookmarks however you like. Our
+                                simple drag-and-drop interface gives you complete control over how you manage your
+                                favourite sites.</p>
+                            <button type="button" class="btn btn-primary shadow me-2">More Info</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">
+                <div class="container">
+
+                    <div class="row justify-content-center align-items-center mt-5">
+                        <div class="col-12 col-md-6">
+                            <img class="img-responsive mb-3" width="100%" src="Imagenes\illustration-features-tab-3.svg"
+                                alt="computer screen">
+                        </div>
+                        <div class="col-12 col-md-5 offset-md-1 text-center text-md-start p-4  mb-5 ">
+                            <h2> Share in one click</h2>
+                            <p class="pe-4 ps-4 pe-md-0 ps-md-0"> Organize your bookmarks however you like. Our
+                                simple drag-and-drop interface gives you complete control over how you manage your
+                                favourite sites.</p>
+                            <button type="button" class="btn btn-primary shadow me-2">More Info</button>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
     </div>
-</div>
-  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    
+
+    <div class="container text-center mt-5">
+        <div class="row">
+            <h2 class="col-12">Download the extension</h2>
+            <div class="row">
+                <p class="col-12 col-md-6 offset-md-3 pe-4 ps-4">We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to prioritize.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>
