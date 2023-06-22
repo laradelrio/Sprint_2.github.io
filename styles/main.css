@@ -14,18 +14,40 @@ nav {
   height: 40%;
 }
 
+#purpleBgShape2 {
+  z-index: -1;
+  width: 90%;
+  height: 30%;
+  margin-left: -30%;
+}
+
 body p {
   color: gray;
+}
+
+#home-tab, #profile-tab, #messages-tab {
+  font-size: medium;
+}
+#home-tab.active, #profile-tab.active, #messages-tab.active {
+  border-bottom: #FA5959;
+  border-bottom-style: ridge;
 }
 
 @media (min-width: 768px) {
   #purpleBgShape {
     height: 30%;
   }
+  #purpleBgShape2 {
+    width: 65%;
+    height: 20%;
+  }
 }
 @media (min-width: 992px) {
   #purpleBgShape {
     height: 50%;
+  }
+  #purpleBgShape2 {
+    height: 40%;
   }
 }
 /*!
@@ -3799,7 +3821,7 @@ textarea.form-control-lg {
   --bs-nav-link-padding-y: 0.5rem;
   --bs-nav-link-font-size: 0.75rem;
   --bs-nav-link-font-weight: 500;
-  --bs-nav-link-color: var(--bs-link-color);
+  --bs-nav-link-color: gray;
   --bs-nav-link-hover-color: var(--bs-link-hover-color);
   --bs-nav-link-disabled-color: var(--bs-secondary-color);
   display: flex;
@@ -3839,13 +3861,13 @@ textarea.form-control-lg {
 }
 
 .nav-tabs {
-  --bs-nav-tabs-border-width: var(--bs-border-width);
+  --bs-nav-tabs-border-width: 0px;
   --bs-nav-tabs-border-color: var(--bs-border-color);
   --bs-nav-tabs-border-radius: var(--bs-border-radius);
-  --bs-nav-tabs-link-hover-border-color: var(--bs-secondary-bg) var(--bs-secondary-bg) var(--bs-border-color);
+  --bs-nav-tabs-link-hover-border-color: white;
   --bs-nav-tabs-link-active-color: var(--bs-emphasis-color);
   --bs-nav-tabs-link-active-bg: var(--bs-body-bg);
-  --bs-nav-tabs-link-active-border-color: var(--bs-border-color) var(--bs-border-color) var(--bs-body-bg);
+  --bs-nav-tabs-link-active-border-color: red;
   border-bottom: var(--bs-nav-tabs-border-width) solid var(--bs-nav-tabs-border-color);
 }
 .nav-tabs .nav-link {
