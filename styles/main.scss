@@ -3,14 +3,26 @@
 $primary: #5265E1;
 $secondary: #FA5959;
 
-//Navbar
 
+body{
+    overflow-x:hidden;
+}
+
+//Navbar
 $nav-link-font-size: 0.75rem;
 $nav-link-font-weight: 500;
 
 nav {
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+
+
+
+#purpleBgShape{ //bootsrap
+    z-index: -1;
+    width: 160% ;
+    height:40%;
 }
 
 
@@ -38,10 +50,24 @@ $btn-padding-y: 0.75rem;
 $btn-font-family: 'Rubik', sans-serif;
 
 
+@media (min-width: 768px) {
+    
+    #purpleBgShape{
+       height:30%;
+    }//add to bootstrap !!!!
+}
+
+@media (min-width:992px) {
+    
+    #purpleBgShape{
+       height:50%;
+    }
+}
+
 
 
 //import the functions and variables
-@import "../node_modules/bootstrap/scss/_functions ";
+@import "../node_modules/bootstrap/scss/_functions";
 @import "../node_modules/bootstrap/scss/_variables";
 
 

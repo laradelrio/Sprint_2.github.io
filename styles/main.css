@@ -1,13 +1,33 @@
 @charset "UTF-8";
+body {
+  overflow-x: hidden;
+}
+
 nav {
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+
+#purpleBgShape {
+  z-index: -1;
+  width: 160%;
+  height: 40%;
 }
 
 body p {
   color: gray;
 }
 
+@media (min-width: 768px) {
+  #purpleBgShape {
+    height: 30%;
+  }
+}
+@media (min-width: 992px) {
+  #purpleBgShape {
+    height: 50%;
+  }
+}
 /*!
  * Bootstrap  v5.3.0 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
@@ -248,11 +268,11 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: calc(1.375rem + 1.5vw);
+  font-size: calc(1.3rem + 0.6vw);
 }
 @media (min-width: 1200px) {
   h3, .h3 {
-    font-size: 2.5rem;
+    font-size: 1.75rem;
   }
 }
 
@@ -8381,7 +8401,7 @@ textarea.form-control-lg {
 }
 
 .fs-3 {
-  font-size: calc(1.375rem + 1.5vw) !important;
+  font-size: calc(1.3rem + 0.6vw) !important;
 }
 
 .fs-4 {
@@ -12003,7 +12023,7 @@ textarea.form-control-lg {
     font-size: 2rem !important;
   }
   .fs-3 {
-    font-size: 2.5rem !important;
+    font-size: 1.75rem !important;
   }
   .fs-4 {
     font-size: 1.5rem !important;
