@@ -1,17 +1,19 @@
 //Variables
 //Primary colors;
-$primary: #5265E1;
+$primary: #5265e0;
 $secondary: #FA5959;
+$rubik: 'Rubik', sans-serif;
 
 body{
     overflow-x:hidden;
+   
 }
 
 //Navbar
 $nav-link-font-size: 0.75rem;
 $nav-link-font-weight: 500;
 
-nav {
+nav{
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -34,7 +36,7 @@ nav {
 
 //Headings:
 $headings-font-weight: 575;
-$headings-font-family: 'Rubik', sans-serif;
+$headings-font-family: rubik;
 $headings-margin-bottom: 1rem;
 
 
@@ -44,7 +46,7 @@ $paragraph-margin-bottom: 2rem;
 
 body {
     p {
-        color: gray;
+        color: gray;     
     }
 }
 
@@ -53,7 +55,7 @@ $btn-font-weight: light;
 $btn-font-size: 12px;;
 $btn-padding-x: 1.5rem;
 $btn-padding-y: 0.75rem;
-$btn-font-family: 'Rubik', sans-serif;
+$btn-font-family: $rubik;
 
 //Features Tabs
 $nav-tabs-link-hover-border-color: white;
@@ -81,11 +83,20 @@ $accordion-button-focus-box-shadow:none;
     &:hover {
         color:$secondary;
     }
+
+}
+$accordion-button-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%235265E1' stroke='%235265E1' stroke-width='2'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+$accordion-button-active-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FA5959' stroke='%23FA5959' stroke-width='2'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+
+
+#footerMembers{
+    font-family: $rubik;
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size:smaller;
 }
 
-.accordion-item {
-    color:#FA5959;
-}
 @media (min-width: 768px) {
     
     #purpleBgShape{
@@ -93,7 +104,7 @@ $accordion-button-focus-box-shadow:none;
     }
 
     #purpleBgShape2{
-        width:65%;
+        width:30%;
         height: 20%;
     }
 }
