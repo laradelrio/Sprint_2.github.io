@@ -61,6 +61,7 @@ $nav-tabs-link-active-border-color:red;
 $nav-link-color:gray;
 $nav-tabs-border-width:0px;
 
+
 #home-tab, #profile-tab, #messages-tab{
     font-size:medium;
     &.active{
@@ -69,7 +70,22 @@ $nav-tabs-border-width:0px;
     }
 }
 
+//cards
+$card-border-width:0;
 
+//accordion
+$accordion-button-active-bg: none;
+$accordion-button-focus-box-shadow:none;
+
+.accordion-button{
+    &:hover {
+        color:$secondary;
+    }
+}
+
+.accordion-item {
+    color:#FA5959;
+}
 @media (min-width: 768px) {
     
     #purpleBgShape{
