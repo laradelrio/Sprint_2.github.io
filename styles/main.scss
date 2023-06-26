@@ -22,7 +22,7 @@ nav{
 
 #purpleBgShape{
     z-index: -1;
-    width: 160% ;
+    width: 60% ;
     height: 40%;
 }
 
@@ -95,6 +95,9 @@ $accordion-button-active-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3
     text-transform: uppercase;
     letter-spacing: 6px;
     font-size:smaller;
+}
+.form-control {
+    width: 50%;
 }
 
 @media (min-width: 768px) {

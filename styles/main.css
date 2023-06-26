@@ -10,7 +10,7 @@ nav {
 
 #purpleBgShape {
   z-index: -1;
-  width: 160%;
+  width: 60%;
   height: 40%;
 }
 
@@ -43,6 +43,10 @@ body p {
   text-transform: uppercase;
   letter-spacing: 6px;
   font-size: smaller;
+}
+
+.form-control {
+  width: 50%;
 }
 
 @media (min-width: 768px) {
