@@ -13,15 +13,19 @@ body{
 //Navbar
 $nav-link-font-size: 0.75rem;
 $nav-link-font-weight: 500;
+$navbar-light-color: black;
+$navbar-light-hover-color: $secondary;
+$navbar-dark-color: white;
+$navbar-dark-hover-color: $secondary;
+
 
 
 nav{
     text-transform: uppercase;
-    letter-spacing: 2px;
-    
+    letter-spacing: 2px; 
+   
+
 }
-
-
 
 #purpleBgShape{
     z-index: -1;
@@ -62,7 +66,7 @@ $btn-font-family: $rubik;
 
 //Features Tabs
 $nav-tabs-link-hover-border-color: white;
-$nav-tabs-link-active-border-color:red;
+$nav-tabs-link-active-border-color:$secondary;
 $nav-link-color:gray;
 $nav-tabs-border-width:0px;
 
@@ -91,6 +95,7 @@ $accordion-button-focus-box-shadow:none;
 $accordion-button-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%235265E1' stroke='%235265E1' stroke-width='2'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
 $accordion-button-active-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FA5959' stroke='%23FA5959' stroke-width='2'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
 
+//Footer
 
 #footerMembers{
     font-family: $rubik;
@@ -102,6 +107,23 @@ $accordion-button-active-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3
 .form-control {
     width: 50%;
 }
+
+//Social links Hover
+.SocialRed {
+    display: none;
+}
+.nav-link:hover .SocialWhite {
+    display: none;
+}
+.nav-link:hover .SocialRed{
+    display: block;
+}
+
+
+
+
+
+
 
 @media (min-width: 768px) {
     
