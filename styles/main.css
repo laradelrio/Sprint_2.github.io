@@ -24,7 +24,7 @@ nav {
 
 #purpleBgShape {
   z-index: -1;
-  width: 60%;
+  width: 160%;
   height: 40%;
 }
 
@@ -37,6 +37,41 @@ nav {
 
 body p {
   color: gray;
+}
+
+.btnPurple {
+  color: white;
+  background: #5265e0;
+  font-family: "Rubik", sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+}
+.btnPurple:hover {
+  background-color: white;
+  color: #5265e0;
+}
+
+.btnGray {
+  color: black;
+  background: white;
+  font-family: "Rubik", sans-serif;
+  font-size: 12px;
+  border-color: white;
+}
+.btnGray:hover {
+  border-color: black;
+}
+
+.btnRed {
+  background: #FA5959;
+  font-family: "Rubik", sans-serif;
+  font-size: 12px;
+  border-color: #FA5959;
+  color: white;
+}
+.btnRed:hover {
+  background-color: white;
+  color: #FA5959;
 }
 
 #home-tab, #profile-tab, #messages-tab {
@@ -78,6 +113,7 @@ body p {
 @media (min-width: 768px) {
   #purpleBgShape {
     height: 30%;
+    width: 60%;
   }
   #purpleBgShape2 {
     width: 70%;
@@ -3026,7 +3062,7 @@ textarea.form-control-lg {
   --bs-btn-font-size: 0.75rem;
   --bs-btn-font-weight: light;
   --bs-btn-line-height: 1.5;
-  --bs-btn-color: white;
+  --bs-btn-color: var(--bs-body-color);
   --bs-btn-bg: transparent;
   --bs-btn-border-width: var(--bs-border-width);
   --bs-btn-border-color: transparent;
