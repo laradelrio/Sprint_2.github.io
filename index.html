@@ -309,11 +309,13 @@
         <p id="footerMembers"> 35,000+ Already Joined</p>
         <h2 class="col-12 col-md-4 offset-md-4 text-white">Stay up-to-date with what we're doing</h2>
         <div class="container w-100 mb-5 mt-5 d-flex justify-content-center">
-            <form class="was-validated d-inline d-md-flex col-12 col-md-4">
+            <form class="needs-validation d-inline d-md-flex col-12 col-md-4" novalidate>
+                <div>
                 <input type="email" class="form-control mb-0 border-3 me-0 me-md-3" id="exampleFormControlInput1"
-                    placeholder="Enter your email address">
+                    placeholder="Enter your email address" required>
                 <div class="invalid-feedback bg-secondary text-light rounded-bottom mt-0">
                     <em>Whoops, make sure it's an email</em>
+                </div>
                 </div>
 
                 <button type="submit" class="btnRed rounded pt-2 pb-2 col-sm-12 col-md-3 mt-2">Contact Us</button>
@@ -332,7 +334,7 @@
                 </a>
             </div>
 
-            <div class=" navbar-collapse col-7" id="navbarNavDropdown">
+            <div class="navbar-collapse col-7" id="navbarNavDropdown">
                 <ul class="navbar-nav align-items-center">
                     <li class="nav-item m-3">
                         <a class="nav-link" href="#">Features</a>
